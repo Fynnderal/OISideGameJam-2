@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c9cc31a96d9ae84991ddbb5d7757d05, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: Assembly-CSharp::GunBaseStats
+  _timeBetweenShots: 0.5
+  _damage: 15
+  _bullet: {fileID: 4152944525832118401, guid: f98224b8bdab75447b47f1f9e1334328, type: 3}
+  _maxBulletsInMag: 15
+  _reloadTime: 10
+  _angleRandomness: 5
+  _isAutomatic: 0

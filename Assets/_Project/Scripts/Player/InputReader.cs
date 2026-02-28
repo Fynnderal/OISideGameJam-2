@@ -10,12 +10,9 @@ using UnityEngine.InputSystem;
 public class InputReader : ScriptableObject, PlayerActionsScript.IPlayerActionsActions, PlayerActionsScript.IUIActions
 {
     public event UnityAction<Vector2> Move;
-    public event UnityAction<InputActionPhase> Jump;
     public event UnityAction<InputActionPhase> Dash;
-    public event UnityAction<InputActionPhase> MeleeAttack;
-    public event UnityAction<InputActionPhase> GlideOrHook;
-    //public event UnityAction<InputActionPhase> Ranged; 
-    public event UnityAction<InputActionPhase> SuitChange;
+    public event UnityAction<InputActionPhase> Shoot;
+    public event UnityAction<InputActionPhase> NextWeapon;
     public event UnityAction<InputActionPhase> PauseMenu;
 
     private PlayerActionsScript playerActions;
@@ -48,42 +45,26 @@ public class InputReader : ScriptableObject, PlayerActionsScript.IPlayerActionsA
     {
         playerActions.PlayerActions.Disable();
     }
+
     public void OnMove(InputAction.CallbackContext context)
     {
         Move?.Invoke(context.ReadValue<Vector2>());
     }
 
-    public void OnJump(InputAction.CallbackContext context)
-    {
-        Jump?.Invoke(context.phase);
-
-    }
 
     public void OnDash(InputAction.CallbackContext context)
     {
         Dash?.Invoke(context.phase);
     }
 
-    public void OnMeleeAttack(InputAction.CallbackContext context)
+    public void OnShoot(InputAction.CallbackContext context)
     {
-        MeleeAttack?.Invoke(context.phase);
-    } 
-
-    public void OnGlidingHook(InputAction.CallbackContext context)
-    {
-        GlideOrHook?.Invoke(context.phase);
+        Shoot?.Invoke(context.phase);
     }
 
-    //public void OnRangedAttack(InputAction.CallbackContext context)
-    //{
-    //    Ranged?.Invoke(context.phase);  
-    //}
-
-    public void OnSuitChange(InputAction.CallbackContext context)
-    {
-        SuitChange?.Invoke(context.phase);
+    public void OnNextWeapon(InputAction.CallbackContext context){
+        NextWeapon?.Invoke(context.phase);
     }
-
     public void OnPause(InputAction.CallbackContext context)
     {
         PauseMenu?.Invoke(context.phase);

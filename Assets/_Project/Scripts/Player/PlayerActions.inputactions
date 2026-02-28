@@ -16,15 +16,6 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "d3b82f73-f48e-4d00-a5cc-21a1ee4bdcf3",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "Hold",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Dash",
                     "type": "Button",
                     "id": "810f2111-cead-4b81-9b9d-0e4644a954b6",
@@ -34,27 +25,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "MeleeAttack",
+                    "name": "Shoot",
                     "type": "Button",
-                    "id": "dae36f1b-1a89-444d-b999-54a3efa91ec3",
+                    "id": "eca58343-79c4-4692-bfe0-eab6657b7ff6",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Gliding/Hook",
+                    "name": "NextWeapon",
                     "type": "Button",
-                    "id": "1d3c0247-fc18-4b1b-921c-ac488ab33871",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "SuitChange",
-                    "type": "Button",
-                    "id": "abd9de9a-072c-4905-ae97-319f30cf1013",
+                    "id": "6a811f3c-eb88-4d27-b9a2-2fae42efc24a",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -130,28 +112,6 @@
                 },
                 {
                     "name": "",
-                    "id": "3d6230d4-c386-4ed3-ae85-85ba508b7e76",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "9f151fbe-3506-4b00-b94c-b8492feedae4",
-                    "path": "<Gamepad>/buttonEast",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "1bd8cc26-4850-44cd-8a2f-ff10c3c0cbca",
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
@@ -174,100 +134,23 @@
                 },
                 {
                     "name": "",
-                    "id": "6058874f-3a06-4119-8001-5556d3d66fd4",
-                    "path": "<Keyboard>/k",
+                    "id": "69e393f1-5782-43be-88f7-c850aa328b27",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MeleeAttack",
+                    "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "a116118f-4b49-4073-92ab-8d8b75e0eef3",
-                    "path": "<Gamepad>/buttonSouth",
+                    "id": "8f49f65b-95b4-48c0-a0b3-1656f8df9888",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MeleeAttack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ba32fa28-fe1b-43c0-a9c5-a5f7c9647b88",
-                    "path": "<Keyboard>/l",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Gliding/Hook",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "271ae29a-a1fb-41af-a2f1-4b2ea55585fb",
-                    "path": "<Keyboard>/rightShift",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Gliding/Hook",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "85148ba5-39ed-4161-a0c9-9841f52b72c1",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Gliding/Hook",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "24bae729-53dc-4745-b577-238114b9e74c",
-                    "path": "<Gamepad>/buttonNorth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Gliding/Hook",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "46307d10-2474-4646-876a-35b94ebed7a4",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SuitChange",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "1e6ea9a3-a43f-4ea9-a289-7a93e13dc99f",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SuitChange",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b9b7dfbe-727d-45ea-9da3-a43f10a5c038",
-                    "path": "<Gamepad>/rightShoulder",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SuitChange",
+                    "action": "NextWeapon",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
