@@ -6,9 +6,10 @@ public class Bullet : ValidatedMonoBehaviour
     [SerializeField, Self] protected Rigidbody2D _rb;
     [SerializeField] protected float _speed = 15f;
     [SerializeField] protected float _lifeTime = 5f;
-    [SerializeField] protected int _damage = 30;
+    [SerializeField] protected float _damage = 30;
 
     public float Speed => _speed;
+    public float Damage { get => _damage; set => _damage = value; }
 
     public Vector2 Direction { get; set; }
 

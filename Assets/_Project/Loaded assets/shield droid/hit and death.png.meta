@@ -103,7 +103,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -141,7 +141,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -169,12 +169,12 @@ TextureImporter:
       name: hit and death_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 204
-        width: 8
-        height: 12
+        x: 0
+        y: 186
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: hit and death_1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 185
-        width: 8
-        height: 21
+        x: 0
+        y: 155
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: hit and death_2
       rect:
         serializedVersion: 2
-        x: 26
-        y: 181
-        width: 29
-        height: 36
+        x: 0
+        y: 124
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: hit and death_3
       rect:
         serializedVersion: 2
-        x: 9
-        y: 173
-        width: 8
-        height: 12
+        x: 0
+        y: 93
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: hit and death_4
       rect:
         serializedVersion: 2
-        x: 10
-        y: 154
-        width: 8
-        height: 21
+        x: 0
+        y: 62
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: hit and death_5
       rect:
         serializedVersion: 2
-        x: 26
-        y: 149
-        width: 29
-        height: 32
+        x: 0
+        y: 31
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,12 +301,12 @@ TextureImporter:
       name: hit and death_6
       rect:
         serializedVersion: 2
-        x: 9
-        y: 142
-        width: 8
-        height: 12
+        x: 0
+        y: 0
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,363 +319,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: hit and death_7
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 123
-        width: 8
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aabdcecf35614fa10800000000000000
-      internalID: 1942201889285004202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_8
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 118
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 640f8328c7b9bccb0800000000000000
-      internalID: -4842606015243816890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_9
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 111
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f3c0dac3c318d0b0800000000000000
-      internalID: -5703787196422503431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_10
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 92
-        width: 8
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af129cdd3c32a5990800000000000000
-      internalID: -7396560113856077318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_11
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 87
-        width: 30
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08e75e433df183c70800000000000000
-      internalID: 8950939251384876672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_12
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 80
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aae2246abe0c7cf40800000000000000
-      internalID: 5748775567700930218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_13
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 92
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab8397db74c8816a0800000000000000
-      internalID: -6478273824223053638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_14
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 49
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6791e0f42401f310800000000000000
-      internalID: 1436934312814548846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_15
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 61
-        width: 8
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: abf4be7fa61099470800000000000000
-      internalID: 8401748138773925818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_16
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 56
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdcf76080a7a18960800000000000000
-      internalID: 7602541953769012444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_17
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 61
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 423cb461356dcda50800000000000000
-      internalID: 6547343610634552100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_18
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 18
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 842d95378aabc5710800000000000000
-      internalID: 1683425593382261320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_19
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 30
-        width: 8
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c13be4987a3b43080800000000000000
-      internalID: -9208537805921275108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_20
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 25
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2574e98e3145a28a0800000000000000
-      internalID: -6329153881832011950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_21
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 0
-        width: 8
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5bb322eecb4b75290800000000000000
-      internalID: -7901648297656173643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit and death_22
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 0
-        width: 29
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3ccb75d997c1ae80800000000000000
-      internalID: -8169028785547785156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2eb6c5f3b34f60346becdd3e42ec8627
     internalID: 0
     vertices: []
     indices: 
@@ -683,31 +331,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":7.0},"gridSpriteSize":{"x":90.0,"y":31.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       hit and death_0: -6923051170901069527
       hit and death_1: -5163849798170446253
-      hit and death_10: -7396560113856077318
-      hit and death_11: 8950939251384876672
-      hit and death_12: 5748775567700930218
-      hit and death_13: -6478273824223053638
-      hit and death_14: 1436934312814548846
-      hit and death_15: 8401748138773925818
-      hit and death_16: 7602541953769012444
-      hit and death_17: 6547343610634552100
-      hit and death_18: 1683425593382261320
-      hit and death_19: -9208537805921275108
       hit and death_2: -4702262813856405974
-      hit and death_20: -6329153881832011950
-      hit and death_21: -7901648297656173643
-      hit and death_22: -8169028785547785156
       hit and death_3: -1955315685029310632
       hit and death_4: 7905818724210880750
       hit and death_5: 2456808678779168818
       hit and death_6: 8694673611960259904
-      hit and death_7: 1942201889285004202
-      hit and death_8: -4842606015243816890
-      hit and death_9: -5703787196422503431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

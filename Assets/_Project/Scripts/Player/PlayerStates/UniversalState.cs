@@ -18,11 +18,45 @@ public class UniversalState : MovingState
 
         Aim();
 
+        HandleRotation();
+
+    }
+
+    private void HandleRotation()
+    {
+        if (_stateContext.isDamaged)
+            return;
+
+
+        if (_playerController.Input.movementDirection.x > 0 || _playerController.Input.movementDirection.y != 0)
+        {
+            if (_playerController.SpriteRenderer.flipX) {
+                _playerController.AnimationController.ChangeAnimation(_stateContext.RunAnimHash);
+            }
+            else
+            {
+                _playerController.AnimationController.ChangeAnimation(_stateContext.RunBackwardsAnimHash);  
+            }
+        }
+        else if (_playerController.Input.movementDirection.x < 0)
+        {
+            if (_playerController.SpriteRenderer.flipX) {
+                _playerController.AnimationController.ChangeAnimation(_stateContext.RunBackwardsAnimHash);
+            }
+            else
+            {
+                _playerController.AnimationController.ChangeAnimation(_stateContext.RunAnimHash);
+            }
+        }
+        else
+        {
+            _playerController.AnimationController.ChangeAnimation(_stateContext.IdleAnimHash);
+        }
     }
 
     private void Aim()
     {
-        Vector3 mousePosition = (Vector2)_playerController.CameraMain.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        Vector3 mousePosition = (Vector2)Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
 
         float angle = Mathf.Atan2(mousePosition.y - _playerController.Transform.position.y, mousePosition.x - _playerController.Transform.position.x) * Mathf.Rad2Deg;

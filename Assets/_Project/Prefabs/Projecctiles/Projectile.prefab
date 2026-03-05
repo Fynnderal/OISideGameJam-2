@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9010366212273719661}
   m_Layer: 8
   m_Name: Projectile
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 427486949
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 5888531543508697550, guid: 7b29e6f49699eab44aeae5190b8096ab, type: 3}
@@ -145,7 +145,7 @@ MonoBehaviour:
   _rb: {fileID: 9010366212273719661}
   _speed: 7
   _lifeTime: 5
-  _damage: 30
+  _damage: 10
 --- !u!50 &9010366212273719661
 Rigidbody2D:
   serializedVersion: 5

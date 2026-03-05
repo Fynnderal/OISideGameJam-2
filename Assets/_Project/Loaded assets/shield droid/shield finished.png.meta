@@ -136,12 +136,12 @@ TextureImporter:
       name: shield finished_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 111
-        width: 8
-        height: 12
+        x: 0
+        y: 93
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: shield finished_1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 92
-        width: 8
-        height: 21
+        x: 0
+        y: 62
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: shield finished_2
       rect:
         serializedVersion: 2
-        x: 26
-        y: 87
-        width: 36
-        height: 37
+        x: 0
+        y: 31
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: shield finished_3
       rect:
         serializedVersion: 2
-        x: 9
-        y: 80
-        width: 8
-        height: 12
+        x: 0
+        y: 0
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -220,187 +220,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: shield finished_4
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 61
-        width: 8
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a37aae1e00e943c0800000000000000
-      internalID: -4374719211765075035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield finished_5
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 58
-        width: 29
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 667d46f60a29b0080800000000000000
-      internalID: -9220114594349656218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield finished_6
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 49
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c23e6573aaa2c9530800000000000000
-      internalID: 3863009490938290988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield finished_7
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 30
-        width: 8
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd7f66175b35705b0800000000000000
-      internalID: -5402257189250861089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield finished_8
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 26
-        width: 29
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df76f4a932cf90b10800000000000000
-      internalID: 1948365543657400317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield finished_9
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 18
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5717ad639badb650800000000000000
-      internalID: 6250340507548325726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield finished_10
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 0
-        width: 8
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb0d089678d1e85d0800000000000000
-      internalID: -3058474629510147905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield finished_11
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 0
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9c8673924fc9ce80800000000000000
-      internalID: -8157761365156131681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e029ac1fb17d25749acd23ff517b07a2
     internalID: 0
     vertices: []
     indices: 
@@ -408,20 +232,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":4.0},"gridSpriteSize":{"x":90.0,"y":31.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       shield finished_0: 4524929504159654399
       shield finished_1: 9095601875304532796
-      shield finished_10: -3058474629510147905
-      shield finished_11: -8157761365156131681
       shield finished_2: 8614843650480659659
       shield finished_3: 1318426349451011210
-      shield finished_4: -4374719211765075035
-      shield finished_5: -9220114594349656218
-      shield finished_6: 3863009490938290988
-      shield finished_7: -5402257189250861089
-      shield finished_8: 1948365543657400317
-      shield finished_9: 6250340507548325726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

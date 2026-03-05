@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 3763ad2c8d9b9db4ba090efdaf2b1311
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1314475385699157492
+    second: spriteSheet_fireEffect03_42x52_0
+  - first:
+      213: -2583070936973977305
+    second: spriteSheet_fireEffect03_42x52_1
+  - first:
+      213: 7178561054702332525
+    second: spriteSheet_fireEffect03_42x52_2
+  - first:
+      213: -3286880922747114874
+    second: spriteSheet_fireEffect03_42x52_3
+  - first:
+      213: -7670632670321853597
+    second: spriteSheet_fireEffect03_42x52_4
+  - first:
+      213: 5542645019894204188
+    second: spriteSheet_fireEffect03_42x52_5
+  - first:
+      213: 6605376295081407249
+    second: spriteSheet_fireEffect03_42x52_6
+  - first:
+      213: 2193850527418763713
+    second: spriteSheet_fireEffect03_42x52_7
+  - first:
+      213: 2556280588555794509
+    second: spriteSheet_fireEffect03_42x52_8
+  - first:
+      213: 7777219022906748591
+    second: spriteSheet_fireEffect03_42x52_9
+  - first:
+      213: 6654243434210393421
+    second: spriteSheet_fireEffect03_42x52_10
+  - first:
+      213: -7450829069834966294
+    second: spriteSheet_fireEffect03_42x52_11
+  - first:
+      213: 1957623331138871538
+    second: spriteSheet_fireEffect03_42x52_12
+  - first:
+      213: 893352867780796457
+    second: spriteSheet_fireEffect03_42x52_13
+  - first:
+      213: -8296235510915542872
+    second: spriteSheet_fireEffect03_42x52_14
+  - first:
+      213: -4566400430864921768
+    second: spriteSheet_fireEffect03_42x52_15
+  - first:
+      213: -7230347243609840271
+    second: spriteSheet_fireEffect03_42x52_16
+  - first:
+      213: 6761695884187354757
+    second: spriteSheet_fireEffect03_42x52_17
+  - first:
+      213: 8901787790445456168
+    second: spriteSheet_fireEffect03_42x52_18
+  - first:
+      213: -443284151376381096
+    second: spriteSheet_fireEffect03_42x52_19
+  - first:
+      213: -5860949522541398093
+    second: spriteSheet_fireEffect03_42x52_20
+  - first:
+      213: 3391875300407094994
+    second: spriteSheet_fireEffect03_42x52_21
+  - first:
+      213: -3391157558387303063
+    second: spriteSheet_fireEffect03_42x52_22
+  - first:
+      213: 2578305716939288969
+    second: spriteSheet_fireEffect03_42x52_23
+  - first:
+      213: -4295691880787471364
+    second: spriteSheet_fireEffect03_42x52_24
+  - first:
+      213: 109878916978037598
+    second: spriteSheet_fireEffect03_42x52_25
+  - first:
+      213: -2383087163493455510
+    second: spriteSheet_fireEffect03_42x52_26
+  - first:
+      213: 2821593733860432876
+    second: spriteSheet_fireEffect03_42x52_27
+  - first:
+      213: 7045731078029015061
+    second: spriteSheet_fireEffect03_42x52_28
+  - first:
+      213: 4377526963875818844
+    second: spriteSheet_fireEffect03_42x52_29
+  - first:
+      213: 7126758800437944000
+    second: spriteSheet_fireEffect03_42x52_30
+  - first:
+      213: -7876270490311870555
+    second: spriteSheet_fireEffect03_42x52_31
+  - first:
+      213: 4734369712260259571
+    second: spriteSheet_fireEffect03_42x52_32
+  - first:
+      213: -8166197668924979150
+    second: spriteSheet_fireEffect03_42x52_33
+  - first:
+      213: 8223803134362508944
+    second: spriteSheet_fireEffect03_42x52_34
+  - first:
+      213: 8820744014093830025
+    second: spriteSheet_fireEffect03_42x52_35
+  - first:
+      213: -8091371462936567152
+    second: spriteSheet_fireEffect03_42x52_36
+  - first:
+      213: -5691918762941980136
+    second: spriteSheet_fireEffect03_42x52_37
+  - first:
+      213: 1655255519496766748
+    second: spriteSheet_fireEffect03_42x52_38
+  - first:
+      213: -1514126456327311576
+    second: spriteSheet_fireEffect03_42x52_39
+  - first:
+      213: -3433864703488098958
+    second: spriteSheet_fireEffect03_42x52_40
+  - first:
+      213: 2582516013105170145
+    second: spriteSheet_fireEffect03_42x52_41
+  - first:
+      213: -2196808985188907147
+    second: spriteSheet_fireEffect03_42x52_42
+  - first:
+      213: -3355877960324036259
+    second: spriteSheet_fireEffect03_42x52_43
+  - first:
+      213: 4158564127735871922
+    second: spriteSheet_fireEffect03_42x52_44
+  - first:
+      213: -8714747286693745495
+    second: spriteSheet_fireEffect03_42x52_45
+  - first:
+      213: 7569869952302636239
+    second: spriteSheet_fireEffect03_42x52_46
+  - first:
+      213: 565588598264050560
+    second: spriteSheet_fireEffect03_42x52_47
+  - first:
+      213: -4084913953400869111
+    second: spriteSheet_fireEffect03_42x52_48
+  - first:
+      213: -2651094556144899235
+    second: spriteSheet_fireEffect03_42x52_49
+  - first:
+      213: -6073481721646788223
+    second: spriteSheet_fireEffect03_42x52_50
+  - first:
+      213: 971971147873182722
+    second: spriteSheet_fireEffect03_42x52_51
+  - first:
+      213: -7729031288050195083
+    second: spriteSheet_fireEffect03_42x52_52
+  - first:
+      213: -7963834119156260904
+    second: spriteSheet_fireEffect03_42x52_53
+  - first:
+      213: -5978694472947141106
+    second: spriteSheet_fireEffect03_42x52_54
+  - first:
+      213: -7380610172660726517
+    second: spriteSheet_fireEffect03_42x52_55
+  - first:
+      213: 7678491144908965628
+    second: spriteSheet_fireEffect03_42x52_56
+  - first:
+      213: -7073250545446413265
+    second: spriteSheet_fireEffect03_42x52_57
+  - first:
+      213: -7515210725312098795
+    second: spriteSheet_fireEffect03_42x52_58
+  - first:
+      213: -5161176327093679351
+    second: spriteSheet_fireEffect03_42x52_59
+  - first:
+      213: 8575458397386349979
+    second: spriteSheet_fireEffect03_42x52_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5c79e1664fd3210800000000000000
+      internalID: 1314475385699157492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 259
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729d7042ba6172cd0800000000000000
+      internalID: -2583070936973977305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 259
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a6cffde3f5f9360800000000000000
+      internalID: 7178561054702332525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 259
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a66a42737a262d0800000000000000
+      internalID: -3286880922747114874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 259
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bb5f22a307c8590800000000000000
+      internalID: -7670632670321853597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 259
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17c1e6874e6bec40800000000000000
+      internalID: 5542645019894204188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113fc1c5eb20bab50800000000000000
+      internalID: 6605376295081407249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 206
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c949116e6f127e10800000000000000
+      internalID: 2193850527418763713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 206
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48381bc6abb97320800000000000000
+      internalID: 2556280588555794509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 206
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae64c0fe7b3eeb60800000000000000
+      internalID: 7777219022906748591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 206
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4df511d52f985c50800000000000000
+      internalID: 6654243434210393421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 206
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea255aef66599890800000000000000
+      internalID: -7450829069834966294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0ac883c00ea2b10800000000000000
+      internalID: 1957623331138871538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 153
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920a62733b3d56c00800000000000000
+      internalID: 893352867780796457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 153
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0d5e612c9dddc80800000000000000
+      internalID: -8296235510915542872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 153
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b0b108003e0a0c0800000000000000
+      internalID: -4566400430864921768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 153
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17529ed6d75a8ab90800000000000000
+      internalID: -7230347243609840271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 153
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5864538e49e56dd50800000000000000
+      internalID: 6761695884187354757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b296be4d0898b70800000000000000
+      internalID: 8901787790445456168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 100
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b76a6b96329d9f0800000000000000
+      internalID: -443284151376381096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 100
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7bc6e3679b9aea0800000000000000
+      internalID: -5860949522541398093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 100
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2deaf236d9c521f20800000000000000
+      internalID: 3391875300407094994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 100
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d91f2fa2030f0d0800000000000000
+      internalID: -3391157558387303063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_23
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 100
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981768c936bf7c320800000000000000
+      internalID: 2578305716939288969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf312257ef2a264c0800000000000000
+      internalID: -4295691880787471364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 47
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53d7c6fa4e568100800000000000000
+      internalID: 109878916978037598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteSheet_fireEffect03_42x52_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 47
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298e8eae0e7517f4cb546140c60db8c7
+      internalID: -2383087163493455510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1d9b7bba3a518194ebe1a92a1d218f5a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":42.0,"y":53.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spriteSheet_fireEffect03_42x52_0: 1314475385699157492
+      spriteSheet_fireEffect03_42x52_1: -2583070936973977305
+      spriteSheet_fireEffect03_42x52_10: 6654243434210393421
+      spriteSheet_fireEffect03_42x52_11: -7450829069834966294
+      spriteSheet_fireEffect03_42x52_12: 1957623331138871538
+      spriteSheet_fireEffect03_42x52_13: 893352867780796457
+      spriteSheet_fireEffect03_42x52_14: -8296235510915542872
+      spriteSheet_fireEffect03_42x52_15: -4566400430864921768
+      spriteSheet_fireEffect03_42x52_16: -7230347243609840271
+      spriteSheet_fireEffect03_42x52_17: 6761695884187354757
+      spriteSheet_fireEffect03_42x52_18: 8901787790445456168
+      spriteSheet_fireEffect03_42x52_19: -443284151376381096
+      spriteSheet_fireEffect03_42x52_2: 7178561054702332525
+      spriteSheet_fireEffect03_42x52_20: -5860949522541398093
+      spriteSheet_fireEffect03_42x52_21: 3391875300407094994
+      spriteSheet_fireEffect03_42x52_22: -3391157558387303063
+      spriteSheet_fireEffect03_42x52_23: 2578305716939288969
+      spriteSheet_fireEffect03_42x52_24: -4295691880787471364
+      spriteSheet_fireEffect03_42x52_25: 109878916978037598
+      spriteSheet_fireEffect03_42x52_26: -2383087163493455510
+      spriteSheet_fireEffect03_42x52_3: -3286880922747114874
+      spriteSheet_fireEffect03_42x52_4: -7670632670321853597
+      spriteSheet_fireEffect03_42x52_5: 5542645019894204188
+      spriteSheet_fireEffect03_42x52_6: 6605376295081407249
+      spriteSheet_fireEffect03_42x52_7: 2193850527418763713
+      spriteSheet_fireEffect03_42x52_8: 2556280588555794509
+      spriteSheet_fireEffect03_42x52_9: 7777219022906748591
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,12 +136,12 @@ TextureImporter:
       name: shield puulse_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 173
-        width: 8
-        height: 12
+        x: 0
+        y: 155
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: shield puulse_1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 149
-        width: 63
-        height: 37
+        x: 0
+        y: 124
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: shield puulse_2
       rect:
         serializedVersion: 2
-        x: 9
-        y: 142
-        width: 8
-        height: 12
+        x: 0
+        y: 93
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: shield puulse_3
       rect:
         serializedVersion: 2
-        x: 10
-        y: 118
-        width: 63
-        height: 29
+        x: 0
+        y: 62
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: shield puulse_4
       rect:
         serializedVersion: 2
-        x: 9
-        y: 111
-        width: 8
-        height: 12
+        x: 0
+        y: 31
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: shield puulse_5
       rect:
         serializedVersion: 2
-        x: 10
-        y: 87
-        width: 63
-        height: 29
+        x: 0
+        y: 0
+        width: 90
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -264,143 +264,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: shield puulse_6
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 80
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d0997124b135bc00800000000000000
-      internalID: 915692748965253337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield puulse_7
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 56
-        width: 63
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7af3283ac86e429c0800000000000000
-      internalID: -3952781081211420761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield puulse_8
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 49
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 539d22ce4aeb7a280800000000000000
-      internalID: -9032040912122619595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield puulse_9
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 25
-        width: 63
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ae82d0f2efaa1e40800000000000000
-      internalID: 5628004073590656676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield puulse_10
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 18
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf73ba4d867a92c60800000000000000
-      internalID: 7793944698827782140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield puulse_11
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 0
-        width: 63
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01e3c745dc4af2a30800000000000000
-      internalID: 4192750979897900560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 47387db0670131e40b2f8ceae40669cb
     internalID: 0
     vertices: []
     indices: 
@@ -408,20 +276,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":6.0},"gridSpriteSize":{"x":90.0,"y":31.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       shield puulse_0: -8056838061788785865
       shield puulse_1: -5973186405709341786
-      shield puulse_10: 7793944698827782140
-      shield puulse_11: 4192750979897900560
       shield puulse_2: 7199472887909164104
       shield puulse_3: 4599613776705118496
       shield puulse_4: 2530386857319389523
       shield puulse_5: 8267935955889701220
-      shield puulse_6: 915692748965253337
-      shield puulse_7: -3952781081211420761
-      shield puulse_8: -9032040912122619595
-      shield puulse_9: 5628004073590656676
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

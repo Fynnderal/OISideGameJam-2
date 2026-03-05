@@ -16,4 +16,9 @@ MonoBehaviour:
   _groundDeceleration: 12
   _runSpeed: 10
   _groundAccelerationPow: 1
-  _bulletSpeed: 15
+  _maxHealth: 200
+  _runAnimName: Walk
+  _damageAnimName: Damage
+  _deathAnimName: Death
+  _runBackWardAnimName: WalkBackWards
+  _idleAnimName: Idle

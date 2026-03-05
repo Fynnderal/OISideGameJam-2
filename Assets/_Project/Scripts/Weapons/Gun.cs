@@ -1,15 +1,17 @@
+using KBCore.Refs;
 using UnityEngine;
 using Utilities;
-public class Gun : MonoBehaviour
+public class Gun : ValidatedMonoBehaviour
 {
     [SerializeField] GunBaseStats _stats;
     [SerializeField] Transform _bulletSpawnPoint;
-    private float _timeUntilNextShot = 0;
+    [SerializeField, Self] Animator _animator;
 
     private CountdownTimer _nextShotTimer;
 
 
     private float _currentBulletsNumber = 0;
+    public Animator Animator => _animator;
 
 
     public float CurrentBulletsNumber => _currentBulletsNumber;

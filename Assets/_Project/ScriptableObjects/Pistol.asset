@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c9cc31a96d9ae84991ddbb5d7757d05, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: Assembly-CSharp::GunBaseStats
-  _timeBetweenShots: 0.5
+  _timeBetweenShots: 0.4
   _damage: 15
   _bullet: {fileID: 4152944525832118401, guid: f98224b8bdab75447b47f1f9e1334328, type: 3}
   _maxBulletsInMag: 15

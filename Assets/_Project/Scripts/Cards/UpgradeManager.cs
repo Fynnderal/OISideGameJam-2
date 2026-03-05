@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class Upgrade
 {
     public string title;
-    public string description;
     public Sprite icon;
     public Action effect;
 }
@@ -20,17 +19,22 @@ public class UpgradeManager : ValidatedMonoBehaviour
     [SerializeField] private Sprite[] _cardIcons;
     [SerializeField] private int _cardNumber;
     [SerializeField] private string[] _title;
-    [SerializeField] private string[] _description;
 
     [Header("UI")]
     [SerializeField] private GameObject _panel;
     [SerializeField] private TextMeshProUGUI[] _titleFields;
-    [SerializeField] private TextMeshProUGUI[] _descriptionFields;
     [SerializeField] private Button[] _cardButtons;
     [SerializeField] private Image[] _cardIconFields;
 
+
+    [SerializeField] private WavesManager _waveManager;
+    [SerializeField] private TrapManager _trapManager;
+
+
+    [SerializeField] private PlayerControllerTopDown _player;
     private void Awake()
     {
+        Debug.Log($"UpgradeManager instance: {gameObject.name}", this);
         _upgrades = new Upgrade[_cardNumber];  
         
         for (int i = 0; i < _cardNumber; i++)
@@ -38,17 +42,67 @@ public class UpgradeManager : ValidatedMonoBehaviour
             _upgrades[i] = new Upgrade()
             {
                 title = _title[i],
-                description = _description[i],
                 icon = _cardIcons[i], 
-                effect = () => { Debug.Log("Upgrade " + i); }
             };
         }
+
+        _upgrades[0].effect = () =>
+        {
+            _trapManager.InstantiateTraps(TrapType.Fire);
+            Debug.Log("Instantiated fire trap");
+        };
+        _upgrades[1].effect = () =>
+        {
+            _trapManager.InstantiateTraps(TrapType.Spike);
+        };
+        _upgrades[2].effect = () =>
+        {
+            if (_player._pistolDamageUpgrade < 2f)
+            {
+                _player._pistolDamageUpgrade += 0.1f;
+            }
+        };
+        _upgrades[3].effect = () =>
+        {
+            if (_player._smgDamageUpgrade < 2f)
+            {
+                _player._smgDamageUpgrade += 0.1f;
+            }
+        };
+        _upgrades[4].effect = () =>
+        {
+            if (Spikes.damageUpgrade < 2f)
+            {
+                Spikes.damageUpgrade += 0.1f;
+            }
+        };
+
+        _upgrades[5].effect = () =>
+        {
+            if (FireTrap.damageUpgrade < 2f)
+            {
+                FireTrap.damageUpgrade += 0.1f;
+            }
+        };
+        _upgrades[6].effect = () =>
+        {
+            if (Fire.durationUpgrade < 2f)
+            {
+                Fire.durationUpgrade += 0.1f;
+            }
+        };
+        _upgrades[7].effect = () =>
+        {
+            if (Fire.damageUpgrade < 2f)
+            {
+                Fire.damageUpgrade += 0.1f;
+            }
+        };
     }
 
 
     private void Start()
     {
-        ShowUpgrades();
     }
 
     public void ShowUpgrades()
@@ -63,18 +117,28 @@ public class UpgradeManager : ValidatedMonoBehaviour
         for (int j = 0; j < 3; j++)
         {
             int i = j;
+            int m = upgrades[i];
             _titleFields[i].text = _upgrades[upgrades[i]].title;
-            _descriptionFields[i].text = _upgrades[upgrades[i]].description;
             _cardIconFields[i].sprite = _upgrades[upgrades[i]].icon;
+            Debug.Log($"Assigned upgrade index: {m} to {i}");
             _cardButtons[i].onClick.RemoveAllListeners();
             _cardButtons[i].onClick.AddListener(() => {
-            _upgrades[upgrades[i]].effect.Invoke(); 
-            _panel.SetActive(false);
+                _upgrades[m].effect.Invoke();
+
+                Debug.Log($"Clicked upgrade index: {m}");
+                Debug.Log(_upgrades[m].effect == null
+                    ? "EFFECT IS NULL"
+                    : "EFFECT EXISTS");
+
+                _panel.SetActive(false);
+                Cursor.visible = false;
+                _waveManager.SpawnWave();
             });
 
         }
 
-        _panel.SetActive(true); 
+        _panel.SetActive(true);
+        Cursor.visible = true;
     }
     
 
